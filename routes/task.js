@@ -1,6 +1,5 @@
 const express = require("express");
-const newTask = require("../controllers/TASK.JS");
-const updateTask = require("../controllers/TASK.JS");
+const newTask = require("../controllers/task.js");
 const isAuthenticated = require("../middlewares/auth");
 // const getMyTask = require("../controllers/TASK.JS");
 const Task = require("../models/task");
